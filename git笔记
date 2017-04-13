@@ -98,7 +98,7 @@ git stash 暂存 显示目录
   git push -u origin master (回车以后会输出名字和密码)上传到github 文件
  /*****04-07********************************************************************************************/
   服务器
-  git puch origin master 同步moaster分支
+  git push origin master 同步moaster分支
   git push origin branch-name 同步其他分支
   git push origin origin --tags 同步标签
   git push -u origin :branch-name 删除远程分支
