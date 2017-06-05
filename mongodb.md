@@ -12,8 +12,8 @@ mongodb
 安装mongodb ubuntu  
       sudo apt-key dav --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6
 nest  
-service 启动你相关服务器相应的服务。  
-远程mongodb服务器 mongodb//mydb:asdfgh@ds151137.mlab.com:51137/mydb  
+service 启动你相关服务器相应的服务。    
+远程mongodb服务器 mongodb//mydb:asdfgh@ds151137.mlab.com:51137/mydb   
 robomongo.org  
 sudo apt update 更新  
 sudo apt upgrade 升级  
