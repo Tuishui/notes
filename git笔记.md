@@ -13,21 +13,21 @@ outlook邮箱
 
 git笔记
 
-mkdir git   建立一个git 文件
-git init    进行初始化本地仓库    查看git 仓库位置
-ls -al       查看仓库内容 显示 .git 文件
-touch hello.html     创建一个html 文件
-git status 查看当前文件下/仓库下 的文件状态
-      此时我们需要把次文件做一些操作
-git add .       关注当先文件名字 如果多的化加一个. .表示 当前目录下 次代码 表示 git 到当前目录下
-git status      查看当前目录下所有文件 此时 文件颜色为绿色
-git config --global user.name ""       编辑你自己的名字
-git config --global user.email ""      编辑你自己的邮箱
-git config --global user.editor vim      把核心改成 vim
-git commit         查看当前提交下目录信息 文件
-git commit --amend     返回那个提交文件
-git log  查看该 提交文件
-    commit dc40fc..........    commit ID 哈希值 ID唯一
+mkdir git   建立一个git 文件  
+git init    进行初始化本地仓库     查看git 仓库位置  
+ls -al       查看仓库内容 显示 .git 文件  
+touch hello.html     创建一个html 文件  
+git status 查看当前文件下/仓库下 的文件状态  
+      此时我们需要把次文件做一些操作  
+git add .       关注当先文件名字 如果多的化加一个. .表示 当前目录下 次代码 表示 git 到当前目录下  
+git status      查看当前目录下所有文件 此时 文件颜色为绿色  
+git config --global user.name ""       编辑你自己的名字  
+git config --global user.email ""      编辑你自己的邮箱  
+git config --global user.editor vim      把核心改成 vim  
+git commit         查看当前提交下目录信息 文件  
+git commit --amend     返回那个提交文件  
+git log  查看该 提交文件  
+    commit dc40fc..........    commit ID 哈希值 ID唯一  
     Author : shui Tui <Tuishui@outlook.com>
     Date: wed Apr 5 10:49:54 2017 +0800
 
