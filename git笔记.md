@@ -64,38 +64,38 @@ git stash 暂存 显示目录
  Emacs   Richard stallman//人名   gnu.org
 
  /*****04-06********************************************************************************************/
-新的一天早已开始，那我们还在等待什么～
-. 当前目录
-.. 上一级目录
-* 一个文件
-? 一个位置上的随机数
-   什么是patch!
-   patch: 补丁 在这里多指程序中的bug 需要我们进行fixed  fixed 源码文件就是patch 实际就是保存俩个文件的差异
-   patch 怎么生成 : git format-patch  -p1
-   打开patch : git am patch-name
+新的一天早已开始，那我们还在等待什么～  
+. 当前目录  
+.. 上一级目录  
+* 一个文件  
+? 一个位置上的随机数  
+   什么是patch!  
+   patch: 补丁 在这里多指程序中的bug 需要我们进行fixed  fixed 源码文件就是patch 实际就是保存俩个文件的差异  
+   patch 怎么生成 : git format-patch  -p1  
+   打开patch : git am patch-name  
+  
+  工作流  
+  Tag 自己看  
+  git branch -av   查看分支 一般默认分支master  
+  git branch develop  创建分支 develop  
+  git checkout develop 切换分支  
+  git branch -D branch-name 删除分支  
+  git checkout master 先去master分支上然后 再合并 / git merge develop 合并分支(如果出现冲突的时候可以适用 git mergetool 解决冲突)  
 
-  工作流
-  Tag 自己看
-  git branch -av   查看分支 一般默认分支master
-  git branch develop  创建分支 develop
-  git checkout develop 切换分支
-  git branch -D branch-name 删除分支
-  git checkout master 先去master分支上然后 再合并 / git merge develop 合并分支(如果出现冲突的时候可以适用 git mergetool 解决冲突)
-
-  tag 标签信息
-  git tag 显示所有标签
-  git tag 哈希值 创建标签
-  git log  --decorate 可以显示包含标签历史资料
-  git log tag-name 显示tag开始的所有提交信息
-  git show tag-name 可以显示tag的信息和提交的内容以及patch
-  git checkout -b branch-name tag-name 可以更具tag 的标记进行创建分支
-  git tag -d <tagname> 删除tag标签
-     github.com 和 bitbuckbet.org
-       github 个人开发私有库 你将花钱一个月7美金
-       bitbuckbet 5个人合作花钱
-
-  git clone https// 下载
-  git push -u origin master (回车以后会输出名字和密码)上传到github 文件
+  tag 标签信息  
+  git tag 显示所有标签  
+  git tag 哈希值 创建标签  
+  git log  --decorate 可以显示包含标签历史资料  
+  git log tag-name 显示tag开始的所有提交信息  
+  git show tag-name 可以显示tag的信息和提交的内容以及patch  
+  git checkout -b branch-name tag-name 可以更具tag 的标记进行创建分支  
+  git tag -d <tagname> 删除tag标签  
+     github.com 和 bitbuckbet.org  
+       github 个人开发私有库 你将花钱一个月7美金  
+       bitbuckbet 5个人合作花钱  
+  
+  git clone https// 下载  
+  git push -u origin master (回车以后会输出名字和密码)上传到github 文件  
  /*****04-07********************************************************************************************/
   服务器
   git push origin master 同步moaster分支
