@@ -37,7 +37,7 @@ port:端口号 27017mongodb 的默认端口号
 ps ax 查看运行程序  
 mongo 进入mongo  
 ～更改玩mongo 的IP 后 (该前复制)  
-sudo serbice mongod restart  
+sudo service mongod restart  
   
 mongo 地址:27017 链接世界任意的服务器  
 mongo  推出  
