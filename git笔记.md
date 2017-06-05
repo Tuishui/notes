@@ -98,16 +98,16 @@ git stash 暂存 显示目录
   git push -u origin master (回车以后会输出名字和密码)上传到github 文件  
  /*****04-07********************************************************************************************/
   服务器
-  git push origin master 同步moaster分支
-  git push origin branch-name 同步其他分支
-  git push origin origin --tags 同步标签
-  git push -u origin :branch-name 删除远程分支
-  git push origin --delete <branchName>
-  git push origin --delet tag <tagname>删除远程分支
-  git clone url 下载远程仓库
-  git pull 当前在哪里 同步哪里的分支
+  git push origin master 同步moaster分支  
+  git push origin branch-name 同步其他分支  
+  git push origin origin --tags 同步标签  
+  git push -u origin :branch-name 删除远程分支  
+  git push origin --delete <branchName>  
+  git push origin --delet tag <tagname>删除远程分支  
+  git clone url 下载远程仓库  
+  git pull 当前在哪里 同步哪里的分支  
 
-  本地
-  git checkout -b new 哈希值     把此次 提交 放到 new 分支里面 而且切换到new 分支
+  本地  
+  git checkout -b new 哈希值     把此次 提交 放到 new 分支里面 而且切换到new 分支  
 
-  创建html文档在
+  创建html文档在  
