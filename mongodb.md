@@ -260,7 +260,7 @@ db.collectionName.aggregate([{$match:{"age":10}}, {$sort: {"name": 1}}]) //输�
 'mongodb://mydb:asdfgh@ds151137.mlab.com:51137/mydb'
 
 链接mongodb数据库
-
+```
 var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 
@@ -268,8 +268,8 @@ var url = 'mongodb://mydb:asdfgh@ds151137.mlab.com:51137/mydb';
 MongoClient.connect(url, function(err, db) {
   assert.equal(null, err);
   console.log('Connected correctly to server.');
-  db.close();
-});
-
+  db.close();  
+});  
+```
 与本地操作不同的是，远程服务器操作是用代码操作的而其名字是用conllection('restaurants')写明
-而且程序几乎都将加入一个返回函数，失败输出err 成功输出callback();
+而且程序几乎都将加入一个返回函数，失败输出err 成功输出callback();  
